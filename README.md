@@ -6,7 +6,8 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 </div>
 
 <p align="center">
-  <img src="docs/screenshot-dashboard.png" alt="Ogólny widok dashboardu" width="850" />
+  > Wygląd dashboardu:
+  <img src="docs/screenshot-dashboard.png" alt="Wygląd dashboardu" width="850" />
 </p>
 
 ## Funkcje
@@ -20,9 +21,15 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 | 🔎 | Wyszukiwarka | Styl Ctrl+F: ID, login, imię, telefon, tytuły, ID ofert, nr zwrotu, kwoty, suma |
 | ⚡ | Wydajność | Cache ofert (6h), chunk 20, równoległe load, stale‑while‑revalidate Woo |
 
-> (SCREENSHOT 2: Panel filtrów + wyszukiwarka – `docs/screenshot-filters.png`)
+<p align="center">
+  > Panel filtrów + wyszukiwarka:
+  <img src="docs/screenshot-filters.png" alt="Panel filtrów + wyszukiwarka" width="850" />
+</p>
 
-> (SCREENSHOT 3: Karta zamówienia Allegro ze zwrotem – `docs/screenshot-return.png`)
+<p align="center">
+  > Karta zamówienia Allegro ze zwrotem:
+  <img src="docs/screenshot-return.png" alt="Karta zamówienia Allegro ze zwrotem" width="850" />
+</p>
 
 ## Architektura
 ```
@@ -41,8 +48,6 @@ scripts/
   start-hidden.vbs – szybki start aplikacji w tle (Windows, bez okna)
   stop-hidden.vbs  – szybkie zatrzymanie aplikacji
 ```
-
-> (SCREENSHOT 4: Akcje refund/prowizja na karcie – `docs/screenshot-actions.png`)
 
 ## Setup (dev)
 ```bash
@@ -68,7 +73,10 @@ npm run dev                  # frontend (drugi terminal)
 ```
 Wejdź: http://localhost:5173 i kliknij przycisk 'Zaloguj'.
 
-> (SCREENSHOT 5: Widok Woo zamówień – `docs/screenshot-woo.png`)
+<p align="center">
+  > Autoryzacja allegro:
+  <img src="docs/screenshot-login.png" alt="Autoryzacja allegro" width="850" />
+</p>
 
 ## Zmienne środowiskowe
 | Nazwa | Opis | Domyślne / Przykład |
