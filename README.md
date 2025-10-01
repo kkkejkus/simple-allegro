@@ -5,7 +5,9 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 
 </div>
 
-> (SCREENSHOT 1: Ogólny widok dashboardu – wstaw tutaj `docs/screenshot-dashboard.png`)
+<p align="center">
+  <img src="docs/screenshot-dashboard.png" alt="Ogólny widok dashboardu" width="850" />
+</p>
 
 ## Funkcje
 | | Funkcja | Notatka |
