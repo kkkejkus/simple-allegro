@@ -6,7 +6,7 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 </div>
 
 <p align="center">
-  > Wygląd dashboardu
+  Wygląd dashboardu
   <img src="docs/screenshot-dashboard.png" alt="Wygląd dashboardu" width="850" />
 </p>
 
@@ -68,9 +68,8 @@ Uruchom:
 cd server && node index.js   # backend
 npm run dev                  # frontend (drugi terminal)
 ```
-Wejdź: http://localhost:5173 i kliknij przycisk 'Zaloguj'.
-
-<p align="center">
+<p align="left">
+  Wejdź: http://localhost:5173 i kliknij przycisk 'Zaloguj'.
   <img src="docs/screenshot-login.png" alt="Autoryzacja allegro" width="500" />
 </p>
 
