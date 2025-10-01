@@ -6,7 +6,7 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 </div>
 
 <p align="center">
-  > Wygląd dashboardu:
+  > Wygląd dashboardu
   <img src="docs/screenshot-dashboard.png" alt="Wygląd dashboardu" width="850" />
 </p>
 
@@ -22,12 +22,9 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 | ⚡ | Wydajność | Cache ofert (6h), chunk 20, równoległe load, stale‑while‑revalidate Woo |
 
 <p align="center">
-  > Panel filtrów + wyszukiwarka:
+  Panel filtrów + wyszukiwarka
   <img src="docs/screenshot-filters.png" alt="Panel filtrów + wyszukiwarka" width="850" />
-</p>
-
-<p align="center">
-  > Karta zamówienia Allegro ze zwrotem:
+  Karta zamówienia Allegro ze zwrotem
   <img src="docs/screenshot-return.png" alt="Karta zamówienia Allegro ze zwrotem" width="850" />
 </p>
 
@@ -74,8 +71,7 @@ npm run dev                  # frontend (drugi terminal)
 Wejdź: http://localhost:5173 i kliknij przycisk 'Zaloguj'.
 
 <p align="center">
-  > Autoryzacja allegro:
-  <img src="docs/screenshot-login.png" alt="Autoryzacja allegro" width="850" />
+  <img src="docs/screenshot-login.png" alt="Autoryzacja allegro" width="500" />
 </p>
 
 ## Zmienne środowiskowe
