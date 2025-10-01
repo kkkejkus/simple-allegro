@@ -12,15 +12,9 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 |---|--------|---------|
 | 🔐 | OAuth2 Allegro | Sesja Express, jedno konto |
 | 📦 | Zamówienia Allegro | Widgety zamówień z najistotniejszymi danymi |
-<<<<<<< HEAD
 | 🛍 | WooCommerce x2 | Widgety takie jak z Allegro (bez niektórych funkcji) |
 | 🔁 | Zwroty (tylko Allegro) | Dodatkowe informacje w widgetach tj: nr zwrotu, data zwrotu, akcje zwrotu wpłaty i prowizji |
 | 👤 | Dane kupującego | Login, imię/nazwisko, adres, faktura, telefon, notatki |
-=======
-| 🔁 | Zwroty (tylko Allegro) | Numer zwrotu, data, status, akcje refund/prowizja |
-| 🛍 | WooCommerce x2 | Widgety takie jak z Allegro (bez niektórych funkcji) |
-| 👤 | Dane kupującego | Login, imię/nazwisko, adresy, faktura, telefon, notatki |
->>>>>>> 5ca840d (1/10/25)
 | 🔎 | Wyszukiwarka | Styl Ctrl+F: ID, login, imię, telefon, tytuły, ID ofert, nr zwrotu, kwoty, suma |
 | ⚡ | Wydajność | Cache ofert (6h), chunk 20, równoległe load, stale‑while‑revalidate Woo |
 
@@ -104,8 +98,4 @@ Zasady / intencje:
 - Możesz tworzyć prywatne forki / modyfikacje dla własnych potrzeb.
 - Ulepszanie (refaktoryzacje, dodawanie funkcji) jest mile widziane w formie PR – o ile nie narusza powyższych założeń.
 - Publiczne dalsze rozpowszechnianie, komercyjna eksploatacja lub kopiowanie fragmentów do innych publicznych projektów wymaga wcześniejszej zgody autora.
-<<<<<<< HEAD
 - Kod dostarczony jest „AS IS” – bez jakichkolwiek gwarancji lub odpowiedzialności za skutki użycia.
-=======
-- Kod dostarczony jest „AS IS” – bez jakichkolwiek gwarancji lub odpowiedzialności za skutki użycia.
->>>>>>> 5ca840d (1/10/25)
