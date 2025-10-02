@@ -31,19 +31,20 @@ Prosty panel interakcyjny do zamówień Allegro + dwóch sklepów WooCommerce: R
 ## Architektura
 ```
 frontend/
-  App.tsx          – ładowanie + filtry + merge źródeł
-  apiAllegro.ts    – pobranie zamówień, danych klienta i faktur z Allegro → Order
-  apiWoo.ts        – pobranie zamówień, danych klienta i faktur z WooCommerce → Order
-  components/UnifiedOrders.tsx – lista + akcje (refund/prowizja)
+  App.tsx               – ładowanie + filtry + merge źródeł
+  apiAllegro.ts         – pobranie zamówień, danych klienta i faktur z Allegro → Order
+  apiWoo.ts             – pobranie zamówień, danych klienta i faktur z WooCommerce → Order
+  components/
+    UnifiedOrders.tsx   – lista + akcje (refund/prowizja)
 
 server/
-  index.js    – endpoints Allegro + zwroty + narzędzia
-  allegro.js  – OAuth flow
-  woo.js      – proxy Woo (status, verify, orders, notes)
+  index.js              – endpoints Allegro + zwroty + narzędzia
+  allegro.js            – OAuth flow
+  woo.js                – proxy Woo (status, verify, orders, notes)
 
 scripts/
-  start-hidden.vbs – szybki start aplikacji w tle (Windows, bez okna)
-  stop-hidden.vbs  – szybkie zatrzymanie aplikacji
+  start-hidden.vbs      – szybki start aplikacji w tle (Windows, bez okna)
+  stop-hidden.vbs       – szybkie zatrzymanie aplikacji
 ```
 
 ## Setup (dev)
